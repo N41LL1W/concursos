@@ -1,0 +1,226 @@
+/* Reset básico e Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6;
+    scroll-behavior: smooth; /* Para navegação suave com links internos */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #2c3e50; /* Azul escuro */
+    color: #ecf0f1; /* Cinza claro */
+    padding: 1.5rem 0;
+    border-bottom: 4px solid #3498db; /* Azul mais vibrante */
+    position: sticky; /* Header fixo ao rolar */
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    float: left;
+    font-size: 1.8em;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 5px;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active { /* Classe 'active' para o link da seção atual */
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Main Content Sections */
+main section {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+}
+
+/* Dashboard */
+#dashboard .atalhos {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-atalho {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.btn-atalho:hover {
+    background-color: #2980b9;
+}
+
+/* Seção de Estudo (Português) */
+.secao-materia h2 {
+    margin-bottom: 25px;
+}
+
+.topico-estudo {
+    background-color: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-left: 5px solid #3498db; /* Destaque lateral */
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.topico-estudo.concluido {
+    background-color: #e8f5e9; /* Verde claro para concluído */
+    border-left-color: #4CAF50; /* Verde mais escuro */
+}
+
+.topico-estudo.concluido .topico-header h3 {
+    text-decoration: line-through;
+    color: #555;
+}
+
+.topico-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.topico-header h3 {
+    color: #333;
+    font-size: 1.4em;
+}
+
+.btn-status {
+    padding: 8px 15px;
+    background-color: #5cb85c; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-status:hover {
+    background-color: #4cae4c;
+}
+
+.topico-estudo.concluido .btn-status {
+    background-color: #d9534f; /* Vermelho para "Desmarcar" */
+}
+.topico-estudo.concluido .btn-status:hover {
+    background-color: #c9302c;
+}
+
+.topico-estudo .descricao {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.materiais-estudo h4 {
+    font-size: 1em;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.materiais-estudo ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+.materiais-estudo ul li {
+    margin-bottom: 5px;
+}
+.materiais-estudo ul li a {
+    color: #3498db;
+    text-decoration: none;
+}
+.materiais-estudo ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+    background: #34495e; /* Azul acinzentado */
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsividade */
+@media(max-width: 768px) {
+    header h1 {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    header nav {
+        float: none;
+        text-align: center;
+    }
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .topico-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .topico-header .btn-status {
+        margin-top: 10px;
+    }
+}

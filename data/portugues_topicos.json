@@ -1,0 +1,95 @@
+[
+  {
+    "id": "port-interpretacao",
+    "titulo": "1. Interpretação de Textos",
+    "descricaoCurta": "Compreensão literal e inferencial, identificação de tema, tese, argumentos, tipos de discurso, coesão e coerência.",
+    "conteudoCompleto": [
+      { "tipo": "paragrafo", "texto": "A interpretação de textos é uma das habilidades mais cruciais para o sucesso em concursos públicos. Ela envolve não apenas entender o que está explicitamente escrito, mas também fazer inferências, identificar a intenção do autor, reconhecer o tema central e os argumentos utilizados." },
+      { "tipo": "subtitulo", "texto": "Principais Aspectos a Observar" },
+      { "tipo": "lista_nao_ordenada", "itens": [
+          "Identificação da ideia principal (tese) e secundárias.",
+          "Diferenciação entre fato e opinião.",
+          "Reconhecimento de tipos de discurso (direto, indireto, indireto livre).",
+          "Análise da coesão (ligação entre as partes do texto) e coerência (sentido lógico global).",
+          "Identificação de elementos implícitos e subentendidos."
+        ]
+      },
+      { "tipo": "paragrafo", "texto": "Pratique com diversos tipos de texto: notícias, artigos de opinião, textos literários, científicos, etc. Preste atenção aos conectivos e à progressão das ideias." },
+      { "tipo": "exemplo", "texto": "Uma questão comum pode pedir: 'A partir da leitura do texto, conclui-se que o autor defende principalmente que...'" }
+    ],
+    "materiaisSugeridos": [
+      { "titulo": "Vídeo Aula - Técnicas de Interpretação", "link": "#" },
+      { "titulo": "Artigo - Como Melhorar sua Interpretação", "link": "#" }
+    ]
+  },
+  {
+    "id": "port-gramatica-morfologia",
+    "titulo": "2. Gramática: Morfologia",
+    "descricaoCurta": "Classes de palavras: substantivo, artigo, adjetivo, numeral, pronome, verbo, advérbio, preposição, conjunção, interjeição. Flexões e emprego.",
+    "conteudoCompleto": [
+      { "tipo": "paragrafo", "texto": "Morfologia é o estudo da estrutura, formação e classificação das palavras. Conhecer as classes gramaticais e suas flexões é essencial para a escrita correta e para a compreensão da sintaxe." },
+      { "tipo": "subtitulo", "texto": "Classes de Palavras (Visão Geral)" },
+      { "tipo": "paragrafo", "texto": "As dez classes gramaticais são: Substantivo (nomeia seres), Verbo (indica ação, estado ou fenômeno), Adjetivo (caracteriza o substantivo), Artigo (determina ou indetermina o substantivo), Pronome (substitui ou acompanha o substantivo), Numeral (indica quantidade ou ordem), Advérbio (modifica o verbo, adjetivo ou outro advérbio), Preposição (liga termos), Conjunção (liga orações ou termos de mesma função) e Interjeição (expressa emoções)." },
+      { "tipo": "paragrafo", "texto": "É importante estudar o emprego e as flexões (gênero, número, grau, tempo, modo, pessoa) de cada uma delas." }
+    ],
+    "materiaisSugeridos": [
+      { "titulo": "Playlist de Morfologia", "link": "#" }
+    ]
+  },
+  {
+    "id": "port-gramatica-sintaxe",
+    "titulo": "3. Gramática: Sintaxe",
+    "descricaoCurta": "Período simples e composto. Termos da oração. Concordância verbal e nominal. Regência verbal e nominal. Crase. Colocação pronominal.",
+    "conteudoCompleto": [
+      { "tipo": "paragrafo", "texto": "A sintaxe estuda a relação entre as palavras na oração e entre as orações no período. Domina-la é fundamental para construir frases claras e corretas." },
+      { "tipo": "subtitulo", "texto": "Tópicos Essenciais em Sintaxe" },
+      { "tipo": "lista_nao_ordenada", "itens": [
+          "Sujeito e Predicado: Identificação e classificação.",
+          "Termos integrantes da oração: Objetos (direto, indireto), complemento nominal, agente da passiva.",
+          "Termos acessórios da oração: Adjuntos (adnominal, adverbial), aposto, vocativo.",
+          "Concordância Verbal e Nominal: Regras gerais e casos especiais.",
+          "Regência Verbal e Nominal: A relação de dependência entre os termos.",
+          "Crase: Condições para o uso do acento grave.",
+          "Colocação Pronominal: Próclise, mesóclise e ênclise."
+        ]
+      }
+    ],
+    "materiaisSugeridos": []
+  },
+  {
+    "id": "port-pontuacao",
+    "titulo": "4. Pontuação",
+    "descricaoCurta": "Emprego da vírgula, ponto final, ponto e vírgula, dois pontos, aspas, travessão, parênteses, reticências.",
+    "conteudoCompleto": [
+      { "tipo": "paragrafo", "texto": "A pontuação adequada garante clareza, ritmo e a correta expressão das ideias no texto escrito. Erros de pontuação podem alterar completamente o sentido de uma frase." }
+    ],
+    "materiaisSugeridos": []
+  },
+  {
+    "id": "port-ortografia-acentuacao",
+    "titulo": "5. Ortografia e Acentuação Gráfica",
+    "descricaoCurta": "Novo Acordo Ortográfico. Emprego de letras, hífen. Regras de acentuação.",
+    "conteudoCompleto": [
+      { "tipo": "paragrafo", "texto": "Este tópico abrange as regras para a escrita correta das palavras e para o uso dos acentos gráficos, conforme o Acordo Ortográfico vigente." }
+    ],
+    "materiaisSugeridos": []
+  },
+  {
+    "id": "port-semantica",
+    "titulo": "6. Semântica",
+    "descricaoCurta": "Significação das palavras: sinonímia, antonímia, homonímia, paronímia, polissemia. Denotação e conotação.",
+    "conteudoCompleto": [
+      { "tipo": "paragrafo", "texto": "Semântica é o estudo do significado das palavras e das relações de sentido que elas estabelecem." }
+    ],
+    "materiaisSugeridos": []
+  },
+  {
+    "id": "port-tipologia-generos",
+    "titulo": "7. Tipologia e Gêneros Textuais",
+    "descricaoCurta": "Narração, descrição, dissertação (argumentativa e expositiva). Diferentes gêneros que circulam socialmente.",
+    "conteudoCompleto": [
+      { "tipo": "paragrafo", "texto": "Compreender as características das diferentes tipologias (narrativa, descritiva, dissertativa, injuntiva, expositiva) e dos diversos gêneros textuais (notícia, crônica, editorial, manual, etc.) é vital para a interpretação e produção textual." }
+    ],
+    "materiaisSugeridos": []
+  }
+]
